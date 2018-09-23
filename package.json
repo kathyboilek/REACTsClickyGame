@@ -1,0 +1,34 @@
+{
+  "name": "reactclickygame",
+  "version": "1.0.0",
+  "description": "A memory game with React",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm run build && npm run git-commit && npm run git-push",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathyboilek/ReactClickyGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathyboilek/ReactClickyGame/issues"
+  },
+  "homepage": "https://github.com/kathyboilek/ReactClickyGame#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
