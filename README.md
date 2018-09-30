@@ -1,5 +1,5 @@
 
-# REACTsClickyGame
+# React Clicky Game
 A memory game with React
 
 Components state is managed to respond to user events.
